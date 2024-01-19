@@ -12,7 +12,6 @@ This is an Python OpenCV based implementation of visual odometery.
 
 
 # Algorithm
-Steps of the algorithm are taken from Avi Singh's blog post mentioned above. 
 1. Capture images: I<sup>t</sup> and I<sup>t + 1</sup>
 2. Undistort the captured images (not necessary for KITTI dataset)
 3. Use FAST algorithm to detect features in image I<sup>t</sup>. Track these features using an optical flow methodology, remove points that fall out of frame or are not visible in I<sup>t + 1</sup>. Trigger a new detection of points if the number of tracked points falls behind a threshold. Set to 2000 in this implementation. 
