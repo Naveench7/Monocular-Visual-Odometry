@@ -5,7 +5,7 @@ This is an Python OpenCV based implementation of visual odometery.
 
 # Demo Video
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=xe_k6zRe65Y">
+  <a>
     <img src="images/demo-video.gif">
   </a>
 </p>
